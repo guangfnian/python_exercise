@@ -12,7 +12,7 @@ def rand_chr():
 w, h, num = 200, 100, 4
 im = Image.new('RGB', (w, h), (255, 255, 255))
 draw = ImageDraw.Draw(im)
-font = ImageFont.truetype('c:/Windows/Fonts/Arial.ttf', 50)
+font = ImageFont.truetype('arial.ttf', 50)
 for x in range(w):
 	for y in range(h):
 		draw.point((x, y), fill = rand_color())
